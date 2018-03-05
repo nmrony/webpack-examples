@@ -1,0 +1,24 @@
+{
+  "name": "output-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^3.0.4",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-middleware": "^3.0.0"
+  },
+  "dependencies": {
+    "lodash.join": "^4.0.1"
+  }
+}
